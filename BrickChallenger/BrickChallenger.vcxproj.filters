@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="State.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWindow.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="State.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWindow.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="States">
+      <UniqueIdentifier>{433e848c-0fd4-41cf-b586-e4d61c96bf2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{a7111148-9e6e-43f7-a355-146c590302e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Elements">
+      <UniqueIdentifier>{5af2224f-f554-4919-a8c1-2e93a4b45f88}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

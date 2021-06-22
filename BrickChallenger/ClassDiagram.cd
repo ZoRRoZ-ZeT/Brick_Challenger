@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GameState" Collapsed="true">
+    <Position X="11.5" Y="4" Width="1.5" />
+    <AssociationLine Name="restartBtn" Type="Button">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.348" Y="0.404" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="backToMenuBtn" Type="Button">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.068" Y="-0.294" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAQYAACBAkAAAAAAAAAYIAAAAAEAABAhABAAACAALAE=</HashCode>
+      <FileName>GameState.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="restartBtn" />
+      <Field Name="backToMenuBtn" />
+      <Field Name="player" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MainMenuState" Collapsed="true">
+    <Position X="13.75" Y="4" Width="1.5" />
+    <AssociationLine Name="startBtn" Type="Button" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="14.062" Y="4.691" />
+        <Point X="14.062" Y="5.221" />
+        <Point X="14.062" Y="5.221" />
+        <Point X="14.062" Y="5.75" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.286" Y="0.404" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="quitBtn" Type="Button" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="14.938" Y="4.691" />
+        <Point X="14.938" Y="6.708" />
+        <Point X="14.25" Y="6.708" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.11" Y="-0.284" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAABAAAAAAQAAAAAACAAAAAABAAAAABAAA=</HashCode>
+      <FileName>MainMenuState.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="startBtn" />
+      <Field Name="quitBtn" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="State" Collapsed="true">
+    <Position X="12.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYBAAAAAAAAAAAAEAAQAAAAAAAAAAAMABAhBAACAAA=</HashCode>
+      <FileName>State.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="states" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Block" Collapsed="true">
+    <Position X="7.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYEAAAAAAgAAAAYAAKIIAAEAIAEAACAJAABACAIBAg=</HashCode>
+      <FileName>Block.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bullet" Collapsed="true">
+    <Position X="9.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAIAAAIAAAAAQAIAAKBAAACAAAQAABAAAAAAQRAA=</HashCode>
+      <FileName>Bullet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player" Collapsed="true">
+    <Position X="8.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAAgAAAJAAJQAEAIAAAIAAEAAAAAABJIQAAUCHBAA=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Button">
+    <Position X="12.75" Y="5.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Button::button_states" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Button.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEYCAgAAAAQAgBAAAAAADAAAAAAAAABIABACCAAAFgA=</HashCode>
+      <FileName>Button.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameWindow" Collapsed="true">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAgAAAAQAQAAAAAAAAAAAAAAMABAAAAAAAAA=</HashCode>
+      <FileName>GameWindow.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="states" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="std::stack&lt;_Ty, _Container&gt;" Collapsed="true">
+    <Position X="12.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAIgCAAAAAICAAQAIAAAAQAA=</HashCode>
+      <FileName>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\stack</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
