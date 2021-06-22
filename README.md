@@ -1,6 +1,6 @@
 # Brick Challenger
 
-It is a fanmade game of original one on mobiles.
+It is a fanmade game of the original one on mobiles.
 
 ## Usage
 
